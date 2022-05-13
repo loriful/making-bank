@@ -6,7 +6,7 @@
 #### GitHub: https://github.com/loriful/making-bank
 
 ## **Deployment**
-Heroku
+#### Heroku:  https://enigmatic-brook-58947.herokuapp.com/
 
 
 ## **Description**
@@ -19,6 +19,7 @@ Practice:
   - Node
   - IndexDB API
   - Progressive Web Applications
+  - Manifest.json
   - Service workers
   - Express
   - Heroku
@@ -42,8 +43,11 @@ Practice:
 - Deployed to Heroku for testing and use
 
 ## **Usage**
-- 
-- 
+- Open app
+- Add funds
+- Delete funds
+- Install locally, if desired
+- Use offline, return to online
 
 ## **Questions**
 ### Github Profile:  https://github.com/loriful

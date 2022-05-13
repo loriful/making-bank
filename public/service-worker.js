@@ -12,7 +12,6 @@ const FILES_TO_CACHE = [
 
 // Respond with cached resources
 self.addEventListener('fetch', function (e) {
-  console.log('fetch request : ' + e.request.url);
   e.respondWith(
     caches.match(e.request).then(function (request) {
       if (request) { // if cache is available, respond with cache
@@ -48,7 +47,6 @@ self.addEventListener('activate', function(e) {
       return Promise.all(
         keyList.map(function(key, i) {
           if (cacheKeeplist.indexOf(key) === -1) {
-            console.log('deleting cache : ' + keyList[i]);
             return caches.delete(keyList[i]);
           }
         })
