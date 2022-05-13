@@ -17,7 +17,7 @@ Update an existing mobile-first budget tracker application to allow for offline 
 Practice: 
   - JavaScript
   - Node
-  - IndexDB
+  - IndexDB API
   - Progressive Web Applications
   - Service workers
   - Express
